@@ -39,7 +39,7 @@ main {
     width: 400px;
     background-color: var(--branco-neve);
     position: absolute;
-    top: 80%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
