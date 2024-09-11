@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --braco: hsl(0, 0%, 100%);
+    --bege: hsl(30, 54%, 90%);
+    --cinza-claro: hsl(30, 18%, 87%);
+    --marron-calro: hsl(30, 10%, 34%);
+    --preto-claro: hsl(24, 5%, 18%);
+
+    --marrom: hsl(14, 45%, 36%);
+
+    --Rose: hsl(332, 51%, 32%);
+    --branco-neve: hsl(330, 100%, 98%);
+
+}
+
+body, main {
+    height: 100vh;
+    width: 96vw;
+}
+
+body {
+    background-color: var(--bege);
+    font-family: "Outfit", system-ui;
+    height: 1400px;
+}
+
+main {
+    height: 1200px;
+    width: 400px;
+    background-color: var(--branco-neve);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 20px var(--bege);
+
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: bolder;
+    color: var(--preto-claro);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: var(--marrom);
+    font-family: "Young Serif", serif;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+h3 {
+    color: var(--Rose);
+    font-size: 15px;
+}
+
+p {
+    font-size: 10px;
+    text-align: justify;
+    color: var(--marron-calro);
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.preparation {
+    background-color: hsla(332, 51%, 32%, 0.021);
+    border-radius: 5px;
+}
+.time {
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.simbol {
+    margin-right: 15px;
+}
+
+.numerico {
+    font-size: 13px;
+    color: var(--marrom);
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+.Instructions {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nutricion {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-spacing: 150px;
+}
+
+.Carbs {
+    word-spacing: 171px;
+}
+
+.Protein {
+    word-spacing: 158px;
+}
+
+.Fat {
+    word-spacing: 176px;
+}
+
+.letras {
+    font-weight: bolder;
+    color: var(--marrom);
+    font-size: 1.3em;
+}
+
+.nutrientes {
+    font-size: 1.2em;
+}
