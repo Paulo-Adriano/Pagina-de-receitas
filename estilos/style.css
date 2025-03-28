@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
@@ -17,17 +12,20 @@ body, main {
 body {
     background-color: var(--bege);
     font-family: "Outfit", system-ui;
-    height: 1400px;
+    height: 100;
 }
 
 main {
     height: 1200px;
     width: 400px;
+
     background-color: var(--branco-neve);
+
     position: absolute;
-    top: 82%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-bottom: 30px;
     padding: 20px;
     border-radius: 15px;
 }
