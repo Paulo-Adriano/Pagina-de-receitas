@@ -22,7 +22,7 @@ main {
     background-color: var(--branco-neve);
 
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 30px;
